@@ -1,3 +1,7 @@
-Domain1 = str(input("Enter the domain name: "))
-if Domain1 != "":
-    print("Domain name entered:", Domain1)
+def get_domain():
+    while True:
+        domain = input("Enter the domain name: ")
+        if domain != "":
+            print(domain)
+            return domain
+        print("No domain name entered.")
