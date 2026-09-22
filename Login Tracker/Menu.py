@@ -2,7 +2,7 @@
 
 def add_domain():
     domain_name = input("Please enter the domain name to add: ")
-    print("Domain added: domain_name")
+    print("Domain added: "domain_name")
 
 def menu_selection():
     print("Menu Selection")
@@ -13,6 +13,3 @@ def menu_selection():
     menu['4'] = "Exit"
 
 add_domain()
-    
-
-
