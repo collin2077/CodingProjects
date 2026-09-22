@@ -10,4 +10,10 @@ def get_domain():
             domain = input("Enter the domain name: ")
             continue
 
+domain = {
+    "domain1" : "Tower",
+    "domain2" : "Waypoint",
+    "domain3" : "Archer",
+}
+
 get_domain()
