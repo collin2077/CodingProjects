@@ -1,4 +1,4 @@
-domain = input("Enter the domain name: ")
+#domain = input("Enter the domain name: ")
 
 def get_domain():
     while True:
@@ -10,4 +10,14 @@ def get_domain():
             domain = input("Enter the domain name: ")
             continue
 
-get_domain()
+domain = {
+    "domain1" : "Tower",
+    "last login1" : "2024-06-01 12:00:00",
+    "domain2" : "Waypoint",
+    "last login2" : "2024-06-01 12:00:00",
+    "domain3" : "Archer",
+    "last login3" : "2024-06-01 12:00:00",  
+}
+
+x = domain.get("domain1")
+print(x)
