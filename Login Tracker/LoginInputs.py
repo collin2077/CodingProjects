@@ -1,7 +1,13 @@
+domain = input("Enter the domain name: ")
+
 def get_domain():
     while True:
-        domain = input("Enter the domain name: ")
-        if domain != "":
+        if domain == str(domain):
             print(domain)
-            return domain
-        print("No domain name entered.")
+            break
+        else:
+            print("Try again")
+            domain = input("Enter the domain name: ")
+            continue
+
+get_domain()
